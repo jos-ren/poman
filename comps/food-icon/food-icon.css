@@ -1,0 +1,17 @@
+.food-icon {
+    display: flex;
+}
+
+.food-icon-img{
+
+}
+
+.food-icon-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.food-icon-text{
+
+}
