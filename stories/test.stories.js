@@ -4,6 +4,7 @@ import SearchBar from "../comps/search-bar";
 import TabBar from "../comps/tab-bar";
 import CircleButton from "../comps/circle-button";
 import ProgressBar from "../comps/progress-bar";
+import Slider from "../comps/slider";
 
 export default {
     title: "Pomān",
@@ -14,5 +15,6 @@ export const MySearchBar = () => <SearchBar />;
 export const MyTabBar = () => <TabBar />;
 export const MyCircleButton = () => <CircleButton />;
 export const MyProgressBar = () => <ProgressBar />;
+export const MySlider = () => <Slider />;
 
 
