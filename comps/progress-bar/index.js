@@ -1,18 +1,18 @@
 import React from "react";
 import "./progress-bar.css";
 
-const dotG = require("../../img/1x/circle-g.png");
-const dotL = require("../../img/1x/circle-l.png");
-const form = require("../../img/1x/circle-form.png");
-const food = require("../../img/1x/circle-food.png");
-const style = require("../../img/1x/circle-style.png");
-const bio = require("../../img/1x/circle-bio.png");
-const camera = require("../../img/1x/circle-camera.png");
-const spoon = require("../../img/1x/circle-spoon.png");
-const social = require("../../img/1x/circle-social.png");
-const location = require("../../img/1x/circle-location.png");
-const verification = require("../../img/1x/circle-verification.png");
-const confirmation = require("../../img/1x/circle-confirmation.png");
+const dotG = require("../../img/icons/1x/circle-g.png");
+const dotL = require("../../img/icons/1x/circle-l.png");
+const form = require("../../img/icons/1x/circle-form.png");
+const food = require("../../img/icons/1x/circle-food.png");
+const style = require("../../img/icons/1x/circle-style.png");
+const bio = require("../../img/icons/1x/circle-bio.png");
+const camera = require("../../img/icons/1x/circle-camera.png");
+const spoon = require("../../img/icons/1x/circle-spoon.png");
+const social = require("../../img/icons/1x/circle-social.png");
+const location = require("../../img/icons/1x/circle-location.png");
+const verification = require("../../img/icons/1x/circle-verification.png");
+const confirmation = require("../../img/icons/1x/circle-confirmation.png");
 
 
 const ProgressBar = ({ width, color, backgroundColor, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10 }) =>

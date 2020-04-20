@@ -1,7 +1,7 @@
 import React from "react";
 import "./slider.css";
 
-const po = require("../../img/1x/po-g.png");
+const po = require("../../img/icons/1x/po-g.png");
 
 const Slider = ({ textRight, textLeft,width, backgroundColor, onClick, }) =>
     <div style={{textRight:textRight, textLeft:textLeft, width: width, backgroundColor: backgroundColor}} className="slider" onClick={onClick}>

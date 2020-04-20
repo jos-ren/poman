@@ -1,7 +1,7 @@
 import React from "react";
 import "./search-bar.css";
 
-const defaultImg = require("../../img/1x/search-g.png");
+const defaultImg = require("../../img/icons/1x/search-g.png");
 
 
 const SearchBar = ({ text, width, color, backgroundColor, onClick, img }) =>

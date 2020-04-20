@@ -5,6 +5,7 @@ import TabBar from "../comps/tab-bar";
 import CircleButton from "../comps/circle-button";
 import ProgressBar from "../comps/progress-bar";
 import Slider from "../comps/slider";
+import ProfileImg from "../comps/profile-img";
 
 export default {
     title: "Pomān",
@@ -16,5 +17,6 @@ export const MyTabBar = () => <TabBar />;
 export const MyCircleButton = () => <CircleButton />;
 export const MyProgressBar = () => <ProgressBar />;
 export const MySlider = () => <Slider />;
+export const MyProfileImg = () => <ProfileImg />;
 
 
