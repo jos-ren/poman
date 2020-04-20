@@ -1,8 +1,9 @@
 import React from "react";
 import "./circle-button.css";
 
+const nextW = require("../../img/1x/next-w.png");
 const next = require("../../img/1x/next.png");
-const nextBlack = require("../../img/1x/next-black.png");
+
 
 const CircleButton = ({ width, height, backgroundColor, img, filter }) => <div
     style={{ width: width, height: height, backgroundColor: backgroundColor, filter: filter }}
@@ -13,9 +14,9 @@ const CircleButton = ({ width, height, backgroundColor, img, filter }) => <div
 CircleButton.defaultProps = {
     width: "50px",
     height: "50px",
-    backgroundColor: "#F77821",
+    backgroundColor: "#ededed",
     img: next,
-    filter: "drop-shadow(0px 1px 2px rgba(0, 3, 5, 0.5))",
+    filter: "none",
 }
 
 // CircleButton.defaultProps = {
