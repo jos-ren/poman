@@ -1,10 +1,10 @@
 import React from "react";
 import "./tab-bar.css";
 
-const po = require("../../img/1x/po1x.png");
-const browseUnselected = require("../../img/1x/browse-unselected1x.png");
-const messagesUnselected = require("../../img/1x/messages-unselected1x.png");
-const profileUnselected = require("../../img/1x/profile-unselected1x.png");
+const po = require("../../img/1x/po.png");
+const browseUnselected = require("../../img/1x/browse-grey.png");
+const messagesUnselected = require("../../img/1x/messages-grey.png");
+const profileUnselected = require("../../img/1x/profile-grey.png");
 
 const TabBar = ({ width, backgroundColor, onClick }) =>
     <div style={{ width: width, backgroundColor: backgroundColor }} className="tab_bar" onClick={onClick}>

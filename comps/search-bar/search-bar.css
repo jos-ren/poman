@@ -9,7 +9,7 @@
     /* text-align: start; */
     font-size:13pt;
     color:#000000;
-    filter: drop-shadow(0px 3px 5px rgba(0, 3, 5, 0.5));
+    filter: drop-shadow(0px 1px 2px rgba(0, 3, 5, 0.5));
     border:#ffffff;
     height:50px;
     display:flex;
@@ -25,6 +25,7 @@
     align-items: center;
     display:flex;
     justify-content: flex-end;
+    -webkit-user-select: none;
 }
 
 .search_bar_icon img{

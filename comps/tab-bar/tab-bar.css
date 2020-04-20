@@ -10,6 +10,7 @@
     align-items: center;
     display:flex;
     justify-content: center;
+    -webkit-user-select: none;
 }
 
 .tab_bar_inner img{
