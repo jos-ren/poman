@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./search-bar.css";
 
 const defaultImg = require("../../img/1x/search-g.png");

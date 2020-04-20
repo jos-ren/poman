@@ -1,7 +1,7 @@
 import React from "react";
-import "./button-unselected.css";
+import "./default-button.css";
 
-const ButtonUnselected = ({ text, width, color, backgroundColor, onClick }) => <div
+const DefaultButton = ({ text, width, color, backgroundColor, onClick }) => <div
     style={{ width: width, color: color, backgroundColor: backgroundColor }}
     className="button_box"
     onClick={onClick}
@@ -11,11 +11,11 @@ const ButtonUnselected = ({ text, width, color, backgroundColor, onClick }) => <
     </div>
 </div>
 
-ButtonUnselected.defaultProps = {
+DefaultButton.defaultProps = {
     text: "Button",
     width: "150px",
-    color: "#000000",
-    backgroundColor: "#ededed",
+    color: "#ffffff",
+    backgroundColor: "#167048",
 }
 
-export default ButtonUnselected;
+export default DefaultButton;

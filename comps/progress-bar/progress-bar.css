@@ -1,0 +1,20 @@
+.progress_bar {
+    margin: 5px 10px;
+    height:50px;
+    display:flex;
+}
+
+.progress_bar_inner {
+    height:100%;
+    width:100%;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    -webkit-user-select: none;
+}
+
+.progress_bar_inner img{
+    max-width: 44px;
+    max-height: 44px;
+}
+

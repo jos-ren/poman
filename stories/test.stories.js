@@ -1,17 +1,18 @@
 import React from "react";
-import ButtonUnselected from "../comps/button-unselected";
-import ButtonSelected from "../comps/button-selected";
+import DefaultButton from "../comps/default-button";
 import SearchBar from "../comps/search-bar";
 import TabBar from "../comps/tab-bar";
 import CircleButton from "../comps/circle-button";
+import ProgressBar from "../comps/progress-bar";
 
 export default {
     title: "Pomān",
 };
 
-export const MyButtonUnselected = () => <ButtonUnselected />;
-export const MyButtonSelected = () => <ButtonSelected />;
+export const MyDefaultButton = () => <DefaultButton />;
 export const MySearchBar = () => <SearchBar />;
 export const MyTabBar = () => <TabBar />;
 export const MyCircleButton = () => <CircleButton />;
+export const MyProgressBar = () => <ProgressBar />;
+
 
