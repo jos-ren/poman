@@ -1,0 +1,23 @@
+.spoon_rating{
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spoon_rating_inner{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:30px;
+    width:250px;
+    flex-direction: row;
+    object-fit:contain;
+    -webkit-user-select: none;
+}
+
+.spoons img{
+    max-height:32px;
+    cursor:pointer;
+}
+

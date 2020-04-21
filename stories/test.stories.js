@@ -13,6 +13,8 @@ import HeadingOne from "../comps/heading-one";
 import HeadingTwo from "../comps/heading-two";
 import HeadingThree from "../comps/heading-three";
 import DefaultText from "../comps/default-text";
+import Notification from "../comps/notification";
+import SpoonRating from "../comps/spoon-rating";
 
 export default {
     title: "Pomān",
@@ -32,5 +34,7 @@ export const MyHeadingOne = () => <HeadingOne />;
 export const MyHeadingTwo = () => <HeadingTwo />;
 export const MyHeadingThree = () => <HeadingThree />;
 export const MyDefaultText = () => <DefaultText />;
+export const MyNotification = () => <Notification />;
+export const MySpoonRating = () => <SpoonRating />;
 
 
