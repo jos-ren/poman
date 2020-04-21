@@ -9,10 +9,10 @@ const Notification = ({ width, height, backgroundColor, text, color }) => <div
 
 Notification.defaultProps = {
     color: "#FFFFFF",
-    width: "10px",
-    height: "10px",
-    backgroundColor: "#6988F2",
-    text: "",
+    width: "15px",
+    height: "15px",
+    backgroundColor: "#FD401D",
+    text: "66",
 }
 
 export default Notification;

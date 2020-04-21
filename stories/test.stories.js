@@ -15,6 +15,8 @@ import HeadingThree from "../comps/heading-three";
 import DefaultText from "../comps/default-text";
 import Notification from "../comps/notification";
 import SpoonRating from "../comps/spoon-rating";
+import MessageBar from "../comps/message-bar";
+import Icon from "../comps/icon";
 
 export default {
     title: "Pomān",
@@ -36,5 +38,7 @@ export const MyHeadingThree = () => <HeadingThree />;
 export const MyDefaultText = () => <DefaultText />;
 export const MyNotification = () => <Notification />;
 export const MySpoonRating = () => <SpoonRating />;
+export const MyMessageBar = () => <MessageBar />;
+export const MyIcon = () => <Icon />;
 
 

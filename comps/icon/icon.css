@@ -1,0 +1,14 @@
+.icon {
+    cursor: pointer;
+    display: flex;
+    height:100%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+}
+
+.icon img{
+    max-width: 24px;
+    max-height: 24px;
+} 

@@ -12,4 +12,5 @@
     color:#ffffff;
     max-width: 275px;
     min-height:22px;
+    -webkit-user-select: none;
 }

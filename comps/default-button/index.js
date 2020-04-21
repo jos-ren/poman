@@ -13,7 +13,7 @@ const DefaultButton = ({ text, width, color, backgroundColor, onClick }) => <div
 
 DefaultButton.defaultProps = {
     text: "Button",
-    width: "150px",
+    width: "auto",
     color: "#ededed",
     backgroundColor: "#167048",
 }

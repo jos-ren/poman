@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+.message_bar{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .search_bar_input{
     border-radius: 25px;
     cursor: text;
@@ -14,19 +18,15 @@
     -webkit-user-select: none;
     text-indent: 15px;
     outline: none;
-    width:330px;
+    width:175px;
 }
 
-.search_bar_icon {
+.message_bar_icon {
     -webkit-user-select: none;
-    display:inline-block;
-    position: absolute;
-    top:22px;
-    left:310px;
-
+    display:flex;
 }
 
-.search_bar_icon img{
+.message_bar_icon img{
     max-width: 24px;
     max-height: 24px;
     cursor:pointer;

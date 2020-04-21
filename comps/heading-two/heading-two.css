@@ -5,4 +5,5 @@
     font-size:22pt;
     font-weight:200;
     text-align: start;
+    -webkit-user-select: none;
 }
