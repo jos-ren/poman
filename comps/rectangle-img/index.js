@@ -25,6 +25,7 @@ const profile21 = require("../../img/profiles/profile21.png");
 const profile22 = require("../../img/profiles/profile22.png");
 const profile23 = require("../../img/profiles/profile23.png");
 const profile24 = require("../../img/profiles/profile24.png");
+const restaurant1 = require("../../img/restaurants/lung-wah-hotel-2.png");
 
 const RectangleImg = ({ width, height, img }) => <div
     style={{ width: width, height: height, img: img }}
@@ -33,9 +34,9 @@ const RectangleImg = ({ width, height, img }) => <div
 </div>
 
 RectangleImg.defaultProps = {
-    width: "116px",
-    height: "116px",
-    img: profile1,
+    width: "320px",
+    height: "180px",
+    img: restaurant1,
 }
 
 export default RectangleImg;

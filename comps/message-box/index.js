@@ -1,20 +1,19 @@
 import React from "react";
 import "./message-box.css";
 
-const MessageBox = ({ text, width, color, backgroundColor, onClick }) => <div
-    style={{ width: width, color: color, backgroundColor: backgroundColor }}
-    className="message_box"
-    onClick={onClick}>
+const MessageBox = ({ text, width, color, backgroundColor}) => <div
+    style={{ width: width, color: color, backgroundColor: backgroundColor, text:text}}
+    className="message_box">
     <div className="message_box_inner">
         {text}
     </div>
 </div>
 
 MessageBox.defaultProps = {
-    text: "Button",
-    width: "150px",
-    color: "#ededed",
-    backgroundColor: "#167048",
+    width: "auto",
+    text: "Hi i'm replying to you :)",
+    color: "#404040",
+    backgroundColor: "#ededed",
 }
 
 export default MessageBox;
