@@ -8,6 +8,7 @@ import Slider from "../comps/slider";
 import RoundImg from "../comps/round-img";
 import RectangleImg from "../comps/rectangle-img";
 import FoodIcon from "../comps/food-icon";
+import MessageBox from "../comps/message-box";
 
 export default {
     title: "Pomān",
@@ -22,5 +23,6 @@ export const MySlider = () => <Slider />;
 export const MyRoundImg = () => <RoundImg />;
 export const MyRectangleImg = () => <RectangleImg />;
 export const MyFoodIcon = () => <FoodIcon />;
+export const MyMessageBox = () => <MessageBox />;
 
 

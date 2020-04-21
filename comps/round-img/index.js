@@ -28,8 +28,8 @@ const profile24 = require("../../img/profiles/profile24.png");
 
 const RoundImg = ({ width, height, img }) => <div
     style={{ width: width, height: height, img: img }}
-    className="round-img">
-    <div className="round-img-inner"><img src={img} /></div>
+    className="round_img">
+    <div className="round_img_inner"><img src={img} /></div>
 </div>
 
 RoundImg.defaultProps = {

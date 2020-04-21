@@ -1,17 +1,26 @@
-.food-icon {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.food_icon {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-user-select: none;
 }
 
-.food-icon-img{
-
+.food_icon_img{
+  padding: 15px 15px 5px 15px;
 }
 
-.food-icon-img img{
+.food_icon_img img{
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  cursor: pointer;
+
 }
 
-.food-icon-text{
-
+.food_icon_text{
+  font-family: 'Noto Sans JP';
+  font-size:10pt;
+  text-align: center;
+  color:#404040;
 }

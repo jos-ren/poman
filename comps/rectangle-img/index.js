@@ -28,8 +28,8 @@ const profile24 = require("../../img/profiles/profile24.png");
 
 const RectangleImg = ({ width, height, img }) => <div
     style={{ width: width, height: height, img: img }}
-    className="rectangle-img">
-    <div className="rectangle-img-inner"><img src={img} /></div>
+    className="rectangle_img">
+    <div className="rectangle_img_inner"><img src={img} /></div>
 </div>
 
 RectangleImg.defaultProps = {
