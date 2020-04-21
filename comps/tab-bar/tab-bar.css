@@ -20,3 +20,8 @@
     cursor:pointer;
 }
 
+.tab_bar_notification{
+    position:absolute;
+    left:225px;
+    top:5px;
+}

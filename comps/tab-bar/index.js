@@ -1,5 +1,6 @@
 import React from "react";
 import "./tab-bar.css";
+import Notification from "../../comps/notification";
 
 const po = require("../../img/icons/1x/po-g.png");
 const browse = require("../../img/icons/1x/browse-o.png");
@@ -17,6 +18,7 @@ const TabBar = ({ width, backgroundColor, onClick, po, browse, messages, profile
         <div className="tab_bar_inner"><img src={browse} /></div>
         <div className="tab_bar_inner"><img src={messages} /></div>
         <div className="tab_bar_inner"><img src={profile} /></div>
+        <div className="tab_bar_notification"><Notification text="21"/></div>
 
     </div>
 

@@ -17,6 +17,7 @@ import Notification from "../comps/notification";
 import SpoonRating from "../comps/spoon-rating";
 import MessageBar from "../comps/message-bar";
 import Icon from "../comps/icon";
+import Form from "../comps/form";
 
 export default {
     title: "Pomān",
@@ -40,5 +41,6 @@ export const MyNotification = () => <Notification />;
 export const MySpoonRating = () => <SpoonRating />;
 export const MyMessageBar = () => <MessageBar />;
 export const MyIcon = () => <Icon />;
+export const MyForm = () => <Form />;
 
 
