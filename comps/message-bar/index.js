@@ -1,10 +1,10 @@
 import React from "react";
 import "./message-bar.css";
 
-const camera = require("../../img/icons/1x/camera-b.png");
-const emoji = require("../../img/icons/1x/emoji-b.png");
-const gallery = require("../../img/icons/1x/gallery-b.png");
-const send = require("../../img/icons/1x/send-b.png");
+const camera = require("../../img/icons/camera-b.svg");
+const emoji = require("../../img/icons/emoji-b.svg");
+const gallery = require("../../img/icons/gallery-b.svg");
+const send = require("../../img/icons/send-b.svg");
 
 
 const MessageBar = ({ width, icon1, icon2, icon3, icon4 }) => <div style={{ width: width, icon1:icon1, icon2:icon2, icon3:icon3, icon4:icon4}} className="message_bar">

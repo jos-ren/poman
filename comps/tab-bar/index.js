@@ -2,14 +2,14 @@ import React from "react";
 import "./tab-bar.css";
 import Notification from "../../comps/notification";
 
-const po = require("../../img/icons/1x/po-g.png");
-const browse = require("../../img/icons/1x/browse-o.png");
-const messages = require("../../img/icons/1x/messages-b.png");
-const profile = require("../../img/icons/1x/profile-r.png");
-const poUnselected = require("../../img/icons/1x/po-l.png");
-const browseUnselected = require("../../img/icons/1x/browse-l.png");
-const messagesUnselected = require("../../img/icons/1x/messages-l.png");
-const profileUnselected = require("../../img/icons/1x/profile-l.png");
+const po = require("../../img/icons/po-g.svg");
+const browse = require("../../img/icons/browse-o.svg");
+const messages = require("../../img/icons/messages-b.svg");
+const profile = require("../../img/icons/profile-r.svg");
+const poUnselected = require("../../img/icons/po-l.svg");
+const browseUnselected = require("../../img/icons/browse-l.svg");
+const messagesUnselected = require("../../img/icons/messages-l.svg");
+const profileUnselected = require("../../img/icons/profile-l.svg");
 
 const TabBar = ({ width, backgroundColor, onClick, po, browse, messages, profile }) =>
     <div style={{ width: width, backgroundColor: backgroundColor, po:po, browse:browse, messages: messages, profile:profile,  }} className="tab_bar" onClick={onClick}>

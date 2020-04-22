@@ -1,8 +1,8 @@
 import React from "react";
 import "./spoon-rating.css";
 
-const spoonL = require("../../img/icons/1x/spoon-l.png");
-const spoonO = require("../../img/icons/1x/spoon-o.png");
+const spoonL = require("../../img/icons/spoon-l.svg");
+const spoonO = require("../../img/icons/spoon-o.svg");
 
 const SpoonRating = ({ width, backgroundColor, spoon1, spoon2, spoon3, spoon4, spoon5 }) =>
     <div style={{ width: width, backgroundColor: backgroundColor, spoon1: spoon1, spoon2: spoon2, spoon3: spoon3, spoon4: spoon4, spoon5: spoon5 }} className="spoon_rating" >

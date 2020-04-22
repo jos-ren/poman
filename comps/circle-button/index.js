@@ -1,12 +1,12 @@
 import React from "react";
 import "./circle-button.css";
 
-const nextW = require("../../img/icons/1x/next-w.png");
-const next = require("../../img/icons/1x/next.png");
-const spoonO = require("../../img/icons/1x/spoon-o.png");
-const locateG = require("../../img/icons/1x/locate-g.png");
-const messagesB = require("../../img/icons/1x/messages-b.png");
-const edit = require("../../img/icons/1x/edit.png");
+const nextW = require("../../img/icons/next-w.svg");
+const next = require("../../img/icons/next.svg");
+const spoonO = require("../../img/icons/spoon-o.svg");
+const locateG = require("../../img/icons/locate-g.svg");
+const messagesB = require("../../img/icons/messages-b.svg");
+const edit = require("../../img/icons/edit.svg");
 
 
 

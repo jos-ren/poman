@@ -7,7 +7,7 @@
 .search_bar_input{
     border-radius: 25px;
     cursor: text;
-    margin: 5px 10px;
+    margin:5px 0px 5px 15px;
     font-family: 'Noto Sans JP';
     font-size:11pt;
     font-weight:400;
@@ -24,6 +24,7 @@
 .message_bar_icon {
     -webkit-user-select: none;
     display:flex;
+    margin:0px 5px;
 }
 
 .message_bar_icon img{

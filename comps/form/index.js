@@ -1,8 +1,8 @@
 import React from "react";
 import "./form.css";
 
-const x = require("../../img/icons/1x/x-o.png");
-const check = require("../../img/icons/1x/check-g.png");
+const x = require("../../img/icons/x-o.svg");
+const check = require("../../img/icons/check-g.svg");
 
 
 const Form = ({ width, img }) => <div style={{ width: width }} className="form">

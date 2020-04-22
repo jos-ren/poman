@@ -1,7 +1,7 @@
 import React from "react";
 import "./search-bar.css";
 
-const search = require("../../img/icons/1x/search-g.png");
+const search = require("../../img/icons/search-g.svg");
 
 
 const SearchBar = ({ width, img }) => <div style={{ width: width }} className="search_bar">
