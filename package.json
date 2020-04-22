@@ -1,7 +1,6 @@
 {
   "name": "poman",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "next": "^9.3.5",
@@ -31,5 +30,6 @@
   "bugs": {
     "url": "https://github.com/joshrenema2/poman/issues"
   },
-  "homepage": "https://github.com/joshrenema2/poman#readme"
+  "homepage": "https://github.com/joshrenema2/poman#readme",
+  "description": ""
 }
