@@ -18,7 +18,7 @@ const SpoonRating = ({ width, backgroundColor, spoon1, spoon2, spoon3, spoon4, s
     </div>
 
 SpoonRating.defaultProps = {
-    width: "350px",
+    width: "360px",
     backgroundColor: "#ffffff",
     spoon1:spoonO,
     spoon2:spoonO,

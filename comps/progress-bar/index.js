@@ -31,7 +31,7 @@ const ProgressBar = ({ width, color, backgroundColor, img1, img2, img3, img4, im
 
 ProgressBar.defaultProps = {
     text: "Search here...",
-    width: "330px",
+    width: "360px",
     backgroundColor: "#ffffff",
     img1: dotG,
     img2: dotG, 

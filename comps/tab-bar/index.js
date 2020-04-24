@@ -23,7 +23,7 @@ const TabBar = ({ width, backgroundColor, onClick, po, browse, messages, profile
     </div>
 
 TabBar.defaultProps = {
-    width: "350px",
+    width: "360px",
     backgroundColor: "#ffffff",
     po:po,
     browse:browseUnselected,

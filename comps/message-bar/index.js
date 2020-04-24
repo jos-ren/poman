@@ -16,7 +16,7 @@ const MessageBar = ({ width, icon1, icon2, icon3, icon4 }) => <div style={{ widt
 
 </div>
 MessageBar.defaultProps = {
-    width: "350px",
+    width: "360px",
     icon1: emoji,
     icon2: camera,
     icon3: gallery,
